@@ -8,7 +8,7 @@ The present problem has been dealt with in the article written by Cinar and Kokl
 5. **Performance Evaluation**. Metrics used: Accuracy, Sensivity, Specificity, Precision F1-Score, Negative Predictive Value, False Positive Rate, False Discovery Rate, False Negative Rate.
 
 This project aims to partially reproduce the study (points 4 and 5), using the metrics, methods and techniques seen so far in this course [3]. To this end, the following steps will be followed:
-1. **EDA**: The basic characteristics of the information will be extracted. An Extensive EDA will check which would be the apparently most important morphological characteristics.
+1. **Exploratory data analysis (EDA)**: The basic characteristics of the information will be extracted. An Extensive EDA will check which would be the apparently most important morphological characteristics.
 2. **Model training**: The following methods will be used: LR, DT, and RF. In addition, cross validation will be used in all of them, being k = 4, and the division of the dataset: 25% for the test and 75% for the training.
 3. **Evaluation**: TODO
 
