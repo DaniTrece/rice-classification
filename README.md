@@ -33,7 +33,19 @@ pip install -r ./requirements.txt
 
 ### Local deployment using Docker
 
+```sh
+# Build docker image
+docker build -t rice-prediction .
 
+# Launch local container
+docker run -it -p 9696:9696 rice-prediction:latest
+```
+
+With the venv activated, you can test the local deployment using `predict-test.py`
+
+```sh
+python predict-test.py
+```
 
 ## References
 

@@ -6,3 +6,4 @@ sklearn
 tqdm
 flask
 requests
+gunicorn
