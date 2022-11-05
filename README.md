@@ -18,6 +18,19 @@ The method with the best performance will be the one used for deployment.
 
 ### Virtual environment
 
+```sh
+# Create a virtual environment
+python3.9 -m venv .venv 
+
+# Activate venv for GNU/Linux
+source .venv/bin/activate
+# Activate venv for  Windows PowerShell
+.\.venv\Scripts\Activate.ps1
+
+# Install dependencies
+pip install -r ./requirements.txt
+```
+
 ### Local deployment using Docker
 
 
